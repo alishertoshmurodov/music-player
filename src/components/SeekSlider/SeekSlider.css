@@ -1,0 +1,32 @@
+.seek-slider {
+  opacity: 0;
+  grid-area: 3 /2;
+  align-self: center;
+}
+
+.seek-slider input {
+  width: 100%;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: #c5c6c5;
+  height: 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.seek-slider input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #05ac6a;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.seek-slider input::-webkit-slider-thumb:active {
+  transform: scale(1.1);
+  transition: all 200ms ease;
+}

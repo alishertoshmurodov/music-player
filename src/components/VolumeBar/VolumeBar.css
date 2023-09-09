@@ -1,0 +1,33 @@
+.volume-bar {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  padding-top: 10px;
+}
+
+.volume-bar__slider {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: #c5c6c5;
+  width: 260px;
+  height: 2px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.volume-bar__slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #05ac6a;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.volume-bar__slider::-webkit-slider-thumb:active {
+  transform: scale(1.1);
+  transition: all 200ms ease;
+}

@@ -1,0 +1,27 @@
+.player {
+  position: relative;
+  max-width: 580px;
+  padding: 6px 18px;
+  column-gap: 10px;
+  display: grid;
+  grid-template-columns: 64px 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  background: url(/public/assets/img/Logo.svg) #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 140px;
+  box-shadow: 0px 0px 8px 2px #1c274c;
+  border-radius: 8px;
+}
+
+.player__song-name {
+  align-self: center;
+  grid-area: 2 /2;
+  text-align: center;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "I Really Want To Stay At Your House",
+    "artist": "Rosa Walton",
+    "image": "./assets/songs/i_really_want_to_stay_at_your_house.png",
+    "path": "./assets/songs/I_REALLY_WANT_TO_STAY_AT_YOUR_HOUSE.mp3"
+  },
+  {
+    "name": "Golden Hour",
+    "artist": "JVKE",
+    "image": "./assets/songs/golden-hour.png",
+    "path": "./assets/songs/golden_hour.mp3"
+  },
+  {
+    "name": "DŽANUM",
+    "artist": "Teya Dora",
+    "image": "./assets/songs/dzanum.png",
+    "path": "./assets/songs/DŽANUM.mp3"
+  },
+  {
+    "name": "Sweather Weather",
+    "artist": "The Neighbourhood",
+    "image": "./assets/songs/sweather-weather.png",
+    "path": "./assets/songs/Sweater_Weather.mp3"
+  },
+  {
+    "name": "Until I Found You",
+    "artist": "Stephan Sanchez",
+    "image": "./assets/songs/until_i_found_uou.png",
+    "path": "./assets/songs/Until_I_Found_You.mp3"
+  }
+]
